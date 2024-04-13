@@ -1,5 +1,8 @@
 export function App() {
   return (
-    <h1>Hello World</h1>
+    <div>
+      <h1>Hello World</h1>
+      <button>Dini bimba</button>
+    </div>
   )
 }
