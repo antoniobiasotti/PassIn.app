@@ -6,7 +6,7 @@ export function Header() {
             <img src={nlwUniteIcon} alt="NLW Unite Icon"/>
             <nav className="flex items-center gap-5">
                 <a href="" className="font-medium text-sm">Eventos</a>
-                <a href="" className="font-medium text-sm">Participantes</a>
+                <a href="" className="font-medium text-sm text-zinc-300">Participantes</a>
             </nav>
         </div>
     )
