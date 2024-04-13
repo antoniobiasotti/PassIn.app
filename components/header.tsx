@@ -2,7 +2,7 @@ import nlwUniteIcon from '../src/assets/nlw-unite-icon.svg'
 
 export function Header() {
     return (
-        <div>
+        <div className='flex items-center'>
             <img src={nlwUniteIcon}/>
             <nav>
                 <a href=''>Eventos</a>
