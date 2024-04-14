@@ -3,6 +3,7 @@ import { IconButton } from '../components/icon-button';
 import { Table } from './table/table';
 import { TableHeader } from './table/table-header';
 import { TableCell } from './table/table-cell';
+import { TableRow } from './table/table-row';
 
 export function AttendeeList() {
     return(
@@ -30,7 +31,7 @@ export function AttendeeList() {
                     <tbody>
                         {Array.from({length: 8}).map((_, i) => {
                             return (
-                                <tr key={i} className='border-b border-white/10 hover:bg-white/5'>
+                                <TableRow key={i}>
                                     <TableCell>
                                         <input type='checkbox' className='size-4 bg-black/20 rounded-lg border border-white/10 checked:bg-orange-400'/>
                                     </TableCell>
@@ -50,7 +51,7 @@ export function AttendeeList() {
                                             <MoreHorizontal className='size-4' />
                                         </IconButton>
                                     </TableCell>
-                                </tr>
+                                </TableRow>
                             )
                         })}
                     </tbody>
